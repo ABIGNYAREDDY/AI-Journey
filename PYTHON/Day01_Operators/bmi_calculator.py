@@ -1,0 +1,8 @@
+name = input("enter username")
+weight = int(input("enter your weight...(kgs)"))
+height = float(input("enter your height...(meters)"))
+bmi =(weight / (height ** 2))
+print("hello"+" " + name)
+print(weight)
+print("Your height is:", height)
+print("BMI:",bmi)
